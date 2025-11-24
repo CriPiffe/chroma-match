@@ -4,7 +4,7 @@ import TanStackRouterVite from '@tanstack/router-plugin/vite'
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: '/color-app/',
+  base: '/chroma-match/',
   plugins: [
     TanStackRouterVite({
       routesDirectory: './src/routes',

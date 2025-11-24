@@ -1,5 +1,5 @@
 import { Button as AriaButton } from 'react-aria-components'
-import { CSSProperties, ComponentProps } from 'react'
+import type { CSSProperties, ComponentProps } from 'react'
 
 interface ButtonProps extends ComponentProps<typeof AriaButton> {
   variant?: 'primary' | 'outline' | 'ghost'
